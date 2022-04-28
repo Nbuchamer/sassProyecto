@@ -1,0 +1,74 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #d4bdae;
+}
+header{
+    .header{
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        grid-area: header;
+    }
+    img{
+        text-align: center;
+    }
+    h1{
+        color: black;
+    font-style: normal;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    }
+    h3{
+        color: black;
+        font-style: italic;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1.7rem;
+    }
+}
+main{
+    main{
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .section1{
+        width: 400px;
+        margin: 0.5rem;
+        padding: 0.5rem; 
+        border: gray 2px double;
+        border-radius: 0.5rem;
+        justify-items: center;
+    }
+}
+footer{
+    footer{
+        justify-content: center;
+        text-align: center;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .ropita{
+        list-style: none;
+        text-align: center;
+        font-size: 40px;
+    }
+    .insta{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    fieldset {
+        color: black;
+        width: 400px;
+        margin: 20px;
+        padding: 10px; 
+        border: gray 2px double;
+        border-radius: 1rem;
+        text-align: center;
+        color: black;
+        font-style: italic;
+        font-family: 'Fredoka', sans-serif;
+        font-weight: bold;
+    }
+}
